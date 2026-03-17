@@ -11,24 +11,25 @@
     <script>
         const output = document.getElementById('output');
         
-        fetch('http://localhost:3000/api/chat', {
+        fetch('http://localhost:3000/api/rag/ask', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                messages: [
+                // messages: [
                     // { role: 'system', content: '你是一个幽默的助手' },
-                    { role: 'user', content: '写一个vue3增删改查的页面，ts版本的' }
-                ]
+                    // { role: 'user', content: '写一个vue3增删改查的页面，ts版本的' }
+                // ]
+                 question:'程办公需要提前多久申请？'
             })
         }).then(async response => {
             const reader = response.body.getReader();
             const decoder = new TextDecoder();
-            
             while (true) {
                 const { done, value } = await reader.read();
                 if (done) break;
                 
                 const text = decoder.decode(value);
+                console.log(done, value,text,'前端接收到的数据为');
                 const lines = text.split('\n');
                 
                 for (const line of lines) {
@@ -44,6 +45,8 @@
                         } catch (e) {
                             // 忽略非 JSON 数据
                         }
+                    } else {
+                        output.innerHTML += line;
                     }
                 }
             }

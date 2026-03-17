@@ -1,3 +1,7 @@
+// 在文件顶部添加这个注释指令
+// This is a Prisma "preview feature" directive to run SQL before migrations
+// It tells Prisma to enable the vector extension in the shadow database
+
 generator client {
   provider = "prisma-client-js"
 }
@@ -13,4 +17,120 @@ model User {
   email     String   @unique
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+}
+model Document {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  chunks      DocumentChunk[]
+}
+
+model DocumentChunk {
+  id          String   @id @default(cuid())
+  documentId  String
+  document    Document @relation(fields: [documentId], references: [id])
+  content     String   @db.Text
+  embedding   Unsupported("vector(1536)")?
+  index       Int
+  createdAt   DateTime @default(now())
+  
+  @@index([documentId])
+}
+
+// 邮件账户配置
+model EmailAccount {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  imapHost    String
+  imapPort    Int
+  smtpHost    String
+  smtpPort    Int
+  username    String
+  password    String   // 注意：实际生产环境需要加密存储
+  isActive    Boolean  @default(true)
+  lastChecked DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  inbox       InboxEmail[]
+  outbox      OutboxEmail[]
+}
+
+// 收件箱（接收的邮件）
+model InboxEmail {
+  id           String   @id @default(cuid())
+  accountId    String
+  account      EmailAccount @relation(fields: [accountId], references: [id])
+  messageId    String   @unique
+  fromEmail    String
+  fromName     String?
+  toEmail      String
+  subject      String
+  body         String   @db.Text
+  bodyHtml     String?  @db.Text
+  receivedAt   DateTime
+  isRead       Boolean  @default(false)
+  isReplied    Boolean  @default(false)
+  isArchived   Boolean  @default(false)
+  
+  category     String?
+  priority     Int?
+  confidence   Float?
+  
+  // 修改这里：只保留字段定义，不要 @relation
+  replyId      String?
+  reply        OutboxEmail? // 这里不写 @relation
+  
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  @@index([accountId])
+  @@index([receivedAt])
+  @@index([category])
+}
+
+model OutboxEmail {
+  id           String   @id @default(cuid())
+  accountId    String
+  account      EmailAccount @relation(fields: [accountId], references: [id])
+  
+  // 修改这里：只在 OutboxEmail 这边定义 @relation
+  originalEmailId String @unique
+  originalEmail   InboxEmail @relation(fields: [originalEmailId], references: [id])
+  
+  toEmail      String
+  subject      String
+  body         String   @db.Text
+  bodyHtml     String?  @db.Text
+  
+  generationType String
+  confidence   Float?
+  
+  status       String   @default("pending")
+  sentAt       DateTime?
+  errorMessage String?
+  
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  @@index([accountId])
+  @@index([status])
+}
+
+// 回复模板（用于简单场景）
+model ReplyTemplate {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  category    String   // inquiry, thanks, out-of-office, etc.
+  subject     String
+  body        String   @db.Text
+  placeholders Json?    // 支持的占位符，如 ["{name}", "{date}"]
+  isActive    Boolean  @default(true)
+  usageCount  Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([category])
 }

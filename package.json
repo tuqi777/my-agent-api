@@ -13,12 +13,25 @@
   "license": "ISC",
   "dependencies": {
     "@alicloud/bailian20231229": "^2.8.2",
+    "@cornerstone.chat/imap": "^0.8.25",
+    "@langchain/community": "^1.1.23",
+    "@langchain/core": "^1.1.32",
+    "@langchain/textsplitters": "^1.0.1",
     "@prisma/client": "^6.19.2",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "hnswlib-node": "^3.0.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.9.4",
+    "multer": "^2.1.1",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.2",
     "openai": "^6.29.0",
-    "prisma": "^6.19.2"
+    "pdf-parse": "^2.4.5",
+    "prisma": "^6.19.2",
+    "zod": "^4.3.6",
+    "zod-to-json-schema": "^3.25.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
