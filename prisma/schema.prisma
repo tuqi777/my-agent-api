@@ -108,6 +108,12 @@ model OutboxEmail {
   generationType String
   confidence   Float?
   
+  hasAttachment Boolean  @default(false)  // 是否有附件
+  attachmentName String?                   // 附件文件名
+  attachmentInfo String?  @db.Text         // 附件信息（JSON格式）
+  attachmentPath String?                    // 附件临时路径
+
+  
   status       String   @default("pending")
   sentAt       DateTime?
   errorMessage String?
@@ -117,6 +123,7 @@ model OutboxEmail {
   
   @@index([accountId])
   @@index([status])
+
 }
 
 // 回复模板（用于简单场景）

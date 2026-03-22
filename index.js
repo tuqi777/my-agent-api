@@ -1,117 +1,91 @@
 require('dotenv').config();
-console.log('DATABASE_URL:', process.env.DATABASE_URL);
 const express = require('express');
 const cors = require('cors');
-const app = express();
-const PORT = process.env.PORT || 3000;
-const emailRouter = require('./routes/email');
 const cron = require('node-cron');
+const config = require('./src/config');
+const logger = require('./src/tools/logger');
+const emailRoutes = require('./src/routes/email');
+
+const app = express();
+const PORT = config.server.port;
 
 // 中间件
 app.use(cors());
 app.use(express.json());
 
+// 请求日志
+app.use((req, res, next) => {
+  logger.info(`${req.method} ${req.url}`);
+  next();
+});
+
+// 路由
+app.use('/api/email', emailRoutes);
+
 // 健康检查
 app.get('/health', (req, res) => {
-    res.json({ status: 'ok', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-// 用户路由
-const userRouter = require('./routes/users');
-const chatRouter = require('./routes/chat');
-const ragRouter = require('./routes/rag');
-const agentRouter = require('./routes/agent');
-app.use('/api/users', userRouter);
-app.use('/api/chat', chatRouter);
-app.use('/api/rag', ragRouter);
-app.use('/api/agent', agentRouter);
-app.use('/api/email', emailRouter);
-
-// 定时任务：每分钟检查并处理新邮件
+// 定时任务：每分钟检查新邮件
 cron.schedule('*/1 * * * *', async () => {
-  console.log('⏰ 自动检查新邮件...', new Date().toISOString());
-  
+  logger.info('开始定时检查邮件');
   try {
-    // ===== 第1步：检查新邮件 =====
-    console.log('📬 步骤1: 检查新邮件...');
-    const checkResponse = await fetch('http://localhost:3000/api/email/check', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ accountId: 'test-account', limit: 10 })
-    });
-    
-    if (!checkResponse.ok) {
-      throw new Error(`检查邮件失败: ${checkResponse.status}`);
-    }
-    
-    const checkResult = await checkResponse.json();
-    console.log(`📬 检查结果: 发现 ${checkResult.new || 0} 封新邮件`);
-    
-    // 如果有新邮件，获取它们的具体信息
-    if (checkResult.new > 0 && checkResult.emails && checkResult.emails.length > 0) {
+    const emailService = require('./src/services/emailService');
+    const newEmails = await emailService.checkNewEmails(100);
+
+    if (newEmails.length > 0) {
+      logger.info(`发现 ${newEmails.length} 封新邮件，开始处理...`);
       
-      // ===== 第2步：处理每一封新邮件（分类+生成回复）=====
-      console.log(`🔄 步骤2: 开始处理 ${checkResult.emails.length} 封新邮件...`);
-      
-      for (const email of checkResult.emails) {
+      // ===== 第2步：处理每封新邮件 =====
+      for (const email of newEmails) {
         try {
-          console.log(`  - 处理邮件: ${email.subject} (${email.id})`);
-          await fetch(`http://localhost:3000/api/email/process/${email.id}`, {
-            method: 'POST'
-          });
-          // 稍微延迟一下，避免请求太快
-          await new Promise(resolve => setTimeout(resolve, 500));
+          // 调用内部的 process 逻辑（需要你暴露一个方法）
+          // 这里有两种方式：
+          
+          // 方式A：直接调用 service 里的处理方法（推荐）
+          await emailService.processEmail(email.id);
+          
+          // 方式B：通过 HTTP 调用自己（如果不想改 service）
+          // await fetch(`http://localhost:3000/api/email/process/${email.id}`, { method: 'POST' });
+          
+          logger.info(`邮件处理成功: ${email.id}`);
         } catch (processErr) {
-          console.error(`  ❌ 处理邮件 ${email.id} 失败:`, processErr.message);
+          logger.error(`邮件处理失败: ${email.id}`, processErr);
         }
+        // 稍微延迟，避免并发太高
+        await new Promise(resolve => setTimeout(resolve, 500));
       }
       
-      // ===== 第3步：发送所有待处理的回复 =====
-      console.log('📤 步骤3: 发送待处理回复...');
-      const sendResponse = await fetch('http://localhost:3000/api/email/send-pending', {
+      // ===== 第3步：发送待处理回复 =====
+      const sendRes = await fetch('http://localhost:3000/api/email/send-pending', {
         method: 'POST'
       });
+      const sendResult = await sendRes.json();
+      logger.info(`已发送 ${sendResult.sent} 封回复邮件`);
       
-      if (sendResponse.ok) {
-        const sendResult = await sendResponse.json();
-        console.log(`📤 发送完成: ${sendResult.sent || 0} 封邮件已发送`);
-      } else {
-        console.error('❌ 发送失败:', sendResponse.status);
-      }
     } else {
-      console.log('📭 没有新邮件需要处理');
+      logger.info('没有新邮件需要处理');
     }
-    
-  } catch (error) {
-    console.error('❌ 自动处理流程失败:', error.message);
+
+  } catch (err) {
+    logger.error('定时任务失败:', err);
   }
 });
 
-// 启动时立即执行一次
-setTimeout(async () => {
-  console.log('🚀 启动时执行首次邮件检查...');
-  try {
-    // 👇 加上 accountId
-    await fetch('http://localhost:3000/api/email/check', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ accountId: 'test-account', limit: 5 })
-    });
-  } catch (error) {
-    console.error('首次检查失败:', error.message);
-  }
-}, 5000);
-
-
-
-
-
-// 错误处理中间件
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).json({ error: 'Something went wrong!' });
+// 启动服务器
+const server = app.listen(PORT, () => {
+  logger.info(`服务器运行在 http://localhost:${PORT}`);
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+// 优雅关闭
+process.on('SIGTERM', () => {
+  logger.info('收到SIGTERM信号，正在关闭...');
+  server.close(async () => {
+    const prisma = require('./src/models/prisma');
+    await prisma.$disconnect();
+    process.exit(0);
+  });
 });
+
+module.exports = server;
