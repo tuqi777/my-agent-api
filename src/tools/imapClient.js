@@ -73,7 +73,7 @@ class IMAPClient {
               setTimeout(()=>{
                 resolve(emails);
                 this.imap.end();
-              })
+              },500)
             });
 
             fetch.once('error', reject);

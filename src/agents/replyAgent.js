@@ -54,11 +54,11 @@ class ReplyAgent {
       default:
         // 默认用 AI 生成
         const result = await this.generateWithAI(email);
-        console.log('generateReply 返回的对象:', {
-          hasAttachment: !!result.attachment,
-          attachmentType: result.attachment?.type,
-          fileName: result.attachment?.fileName
-        });
+        // console.log('generateReply 返回的对象:', {
+        //   hasAttachment: !!result.attachment,
+        //   attachmentType: result.attachment?.type,
+        //   fileName: result.attachment?.fileName
+        // });
         return result;
     }
   }
@@ -136,11 +136,11 @@ class ReplyAgent {
           fullContent: content // 保存完整内容以便后续处理
         };
         
-        console.log('解析后的附件信息:', {
-          type: fileType,
-          fileName: fileName,
-          title: title.substring(0, 30) + '...'
-        });
+        // console.log('解析后的附件信息:', {
+        //   type: fileType,
+        //   fileName: fileName,
+        //   title: title.substring(0, 30) + '...'
+        // });
         
         // 清理标记，只保留正文内容
         content = content

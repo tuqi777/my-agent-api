@@ -5,7 +5,8 @@ const cron = require('node-cron');
 const config = require('./src/config');
 const logger = require('./src/tools/logger');
 const emailRoutes = require('./src/routes/email');
-
+const Imap = require('imap');
+const { PrismaClient } = require('@prisma/client');
 const app = express();
 const PORT = config.server.port;
 
@@ -22,9 +23,97 @@ app.use((req, res, next) => {
 // 路由
 app.use('/api/email', emailRoutes);
 
-// 健康检查
-app.get('/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+// 健康检查接口
+const prisma = new PrismaClient();  // 确保这行在健康检查之前
+app.get('/health', async (req, res) => {
+  const checks = {
+    server: { status: 'ok', uptime: process.uptime() },
+    database: { status: 'unknown' },
+    imap: { status: 'unknown' },
+    bilibili: { status: 'unknown' }
+  };
+  
+  let overallStatus = 200;
+  
+  // 检查数据库 - 使用已定义的 prisma
+  try {
+    await prisma.$queryRaw`SELECT 1`;
+    checks.database = { status: 'ok' };
+  } catch (err) {
+    checks.database = { status: 'error', error: err.message };
+    overallStatus = 503;
+  }
+  
+  // 检查 IMAP - 使用已定义的 Imap
+  try {
+    const imapTest = new Imap({
+      user: config.email.account.user,
+      password: config.email.account.pass,
+      host: config.email.imap.host,
+      port: config.email.imap.port,
+      tls: true,
+      tlsOptions: { rejectUnauthorized: false }
+    });
+    
+    await new Promise((resolve, reject) => {
+      const timeout = setTimeout(() => {
+        imapTest.end();
+        reject(new Error('连接超时'));
+      }, 10000);
+      
+      imapTest.once('ready', () => {
+        clearTimeout(timeout);
+        imapTest.end();
+        resolve();
+      });
+      imapTest.once('error', (err) => {
+        clearTimeout(timeout);
+        reject(err);
+      });
+      imapTest.connect();
+    });
+    checks.imap = { status: 'ok' };
+  } catch (err) {
+    checks.imap = { status: 'error', error: err.message };
+    overallStatus = 503;
+  }
+  
+  // 检查 B站 API
+  try {
+    const bilibiliAPI = require('./src/tools/bilibiliAPI');
+    const result = await bilibiliAPI.searchUser('王师傅');
+    checks.bilibili = { status: 'ok', hasResult: !!result };
+  } catch (err) {
+    checks.bilibili = { status: 'error', error: err.message };
+  }
+  
+  res.status(overallStatus).json({
+    status: overallStatus === 200 ? 'healthy' : 'degraded',
+    timestamp: new Date().toISOString(),
+    checks
+  });
+});
+
+// 统计接口
+app.get('/api/stats', async (req, res) => {
+  try {
+    const [totalEmails, pending, sent, failed] = await Promise.all([
+      prisma.inboxEmail.count(),
+      prisma.outboxEmail.count({ where: { status: 'pending' } }),
+      prisma.outboxEmail.count({ where: { status: 'sent' } }),
+      prisma.outboxEmail.count({ where: { status: 'failed' } })
+    ]);
+    
+    res.json({
+      totalEmails,
+      pending,
+      sent,
+      failed,
+      successRate: totalEmails > 0 ? (sent / totalEmails * 100).toFixed(2) : 0
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 });
 
 // 定时任务：每分钟检查新邮件

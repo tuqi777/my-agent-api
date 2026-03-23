@@ -203,6 +203,7 @@ class FileGenerator {
           '投币量': video.coins,
           '弹幕数': video.danmaku,
           '视频时长': video.duration,
+          '视频链接': `https://www.bilibili.com/video/${video.bvid}`,
           '分区': video.category
         }));
         
@@ -350,7 +351,7 @@ class FileGenerator {
 
               注意：
               - 优先从用户提供的链接中提取 uid
-              - 如果用户只提供了用户名（如"王师傅和小毛毛"），用 userName 参数
+              - 如果用户只提供了用户名，用 userName 参数
               - 如果使用generateVideoData工具，则用户名或uid必传其中一个
               - 不要写死 uid，动态从用户请求中获取`
             },
@@ -406,7 +407,17 @@ class FileGenerator {
         rows.forEach(row => {
           worksheet.addRow(row);
         });
-  
+        // 设置链接列为可点击超链接
+        const linkColumnIndex = headers.findIndex(h => h.indexOf('链接') >-1 );
+        if (linkColumnIndex !== -1) {
+          for (let i = 2; i <= worksheet.rowCount; i++) {
+            const cell = worksheet.getCell(i, linkColumnIndex + 1);
+            if (cell.value && typeof cell.value === 'string' && cell.value.startsWith('http')) {
+              cell.value = { text: cell.value, hyperlink: cell.value };
+              cell.style = { font: { color: { argb: 'FF0000FF' }, underline: true } };
+            }
+          }
+        }
         // 添加表头样式
         worksheet.getRow(1).font = { bold: true };
         worksheet.getRow(1).fill = {

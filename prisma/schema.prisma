@@ -113,6 +113,10 @@ model OutboxEmail {
   attachmentInfo String?  @db.Text         // 附件信息（JSON格式）
   attachmentPath String?                    // 附件临时路径
 
+  retryCount   Int      @default(0)
+  maxRetries   Int      @default(3)
+  lastError    String?  @db.Text
+  nextRetryAt  DateTime?
   
   status       String   @default("pending")
   sentAt       DateTime?

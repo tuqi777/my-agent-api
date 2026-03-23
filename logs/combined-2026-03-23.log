@@ -1,0 +1,1870 @@
+2026-03-23 09:55:39 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:55:52 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:55:57 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:56:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 09:56:00 [error] [mail-agent]: 定时任务失败: Login fail. Account is abnormal, service is not open, password is incorrect, login frequency limited, or system is busy. More information at https://help.mail.qq.com/detail/108/1023 {"type":"no","source":"authentication","stack":"Error: Login fail. Account is abnormal, service is not open, password is incorrect, login frequency limited, or system is busy. More information at https://help.mail.qq.com/detail/108/1023\n    at Connection._resTagged (/root/my-agent-api/node_modules/imap/lib/Connection.js:1502:11)\n    at Parser.<anonymous> (/root/my-agent-api/node_modules/imap/lib/Connection.js:194:10)\n    at Parser.emit (node:events:519:28)\n    at Parser._resTagged (/root/my-agent-api/node_modules/imap/lib/Parser.js:175:10)\n    at Parser._parse (/root/my-agent-api/node_modules/imap/lib/Parser.js:139:16)\n    at Parser._tryread (/root/my-agent-api/node_modules/imap/lib/Parser.js:82:15)\n    at Parser._cbReadable (/root/my-agent-api/node_modules/imap/lib/Parser.js:53:12)\n    at TLSSocket.emit (node:events:519:28)\n    at emitReadable_ (node:internal/streams/readable:834:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)"}
+2026-03-23 09:56:45 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:57:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 09:57:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:35:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 09:57:14 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:58:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 09:58:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:35:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 09:58:03 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:58:15 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:58:18 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:58:18 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 09:58:50 [info] [mail-agent]: GET /health 
+2026-03-23 09:59:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 09:59:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:113:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:00:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:00:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:113:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:00:21 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:00:24 [info] [mail-agent]: GET /health 
+2026-03-23 10:01:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:01:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:01:21 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:01:36 [info] [mail-agent]: GET /health 
+2026-03-23 10:02:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:02:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:03:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:03:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:04:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:04:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:05:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:05:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:05:00 [info] [mail-agent]: GET /health 
+2026-03-23 10:06:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:06:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:07:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:07:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:07:24 [info] [mail-agent]: GET /health 
+2026-03-23 10:08:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:08:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:08:58 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:09:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:09:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:10:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:10:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:11:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:11:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:11:13 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:11:30 [info] [mail-agent]: GET /health 
+2026-03-23 10:12:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:12:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:13:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:13:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:14:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:14:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:15:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:15:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:16:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:16:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:17:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:17:00 [error] [mail-agent]: 定时任务失败: retry is not a function {"stack":"TypeError: retry is not a function\n    at EmailService.checkNewEmails (/root/my-agent-api/src/services/emailService.js:25:12)\n    at /root/my-agent-api/index.js:124:42\n    at Runner.onMatch (/root/my-agent-api/node_modules/node-cron/dist/cjs/tasks/inline-scheduled-task.js:69:20)\n    at Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:55)\n    at listOnTimeout (node:internal/timers:585:17)\n    at process.processTimers (node:internal/timers:521:7)"}
+2026-03-23 10:17:10 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:18:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:18:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:18:02 [info] [mail-agent]: 获取到 40 封邮件 
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: 小小老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<7c4e2860.94aa.19d05d626c3.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: 大大老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<74228c8d.94d3.19d05d80e61.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: 咪咪老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<570d4ca6.9574.19d05e15965.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: UU老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<affdd42.965a.19d05ee512b.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: QQ老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<a0b2aa8.96ca.19d05f2cd91.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: TT老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<5732bd47.a184.19d065a4977.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: JJ老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<5402132c.a3d1.19d0685046b.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: MM老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<74834f5a.a474.19d068f16db.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: II老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<358b1165.a1d9.19d0660da1a.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: RR老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<24231072.a333.19d0678d360.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: GG老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<4dbeb7e3.a37a.19d067e3b02.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: LL老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<5792ec6b.a541.19d069e2126.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: OO老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<523c15f3.a59f.19d06a5f202.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: PP老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<778f51a5.a5b5.19d06a76ea8.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: VV老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<2ef6b220.a5f3.19d06ad131d.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: HH老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<39d98425.a608.19d06af76b5.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: ZZ老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<305a3702.a615.19d06b05f48.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: XX老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<7db2ce45.a62c.19d06b4fae2.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: EE老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<3a317e70.a6b9.19d06c67abe.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAE老师：请帮忙整理B站-王师傅の日记-这个账号的所有视频 {"messageId":"<1e5c11a.99ee.19d0b51f56c.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAL老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<27e8d09c.946e.19d0b10b868.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAQ老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<5059dab8.988e.19d0b3c8200.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAW老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<6fc40f27.9964.19d0b49c76d.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAR老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<e8a9ee.9a68.19d0b58e87f.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: BB老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<6ff4231c.a72f.19d06d4bc42.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAK老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<1b8a12a4.8733.19d0a81477b.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: DDA老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<64263dcb.a805.19d06f4ed51.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: DDF老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<67d30794.a820.19d06f98c9a.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: DDD老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<3f32102e.a832.19d06fef8bf.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAA老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<454e58dd.1fbb.19d090233c5.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAF老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<13a701d4.2934.19d091c96a1.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAJ老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<357977fa.852f.19d0a7ae00f.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: DDDD老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<40488ad5.a860.19d0709b066.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAS老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<588df483.241a.19d090e09ae.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAD老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<4ea40b03.2610.19d0913744c.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAG老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<3d8f1a3e.2aa7.19d09213a29.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAH老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<5ba2398.2c5f.19d09264df3.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAH老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<3e170ea6.2f5e.19d092ef8cb.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAY老师：请帮忙整理B站-王师傅の日记-这个账号的所有视频 {"messageId":"<1dad8a4e.9c84.19d0b79c539.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAT老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<4ce3d04e.9ad5.19d0b602a9a.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: [GitHub] A new SSH authentication public key was added to your account {"messageId":"<69bff3de9f180_1df7311185807df@sharedworker-54785c8ddc-9mxxr.mail>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAI老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<3a84ffee.9e13.19d0b930038.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAO老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<4a8602e6.9f35.19d0ba9dece.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAP老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<145926aa.9f6e.19d0baf3167.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AQ老师：请帮忙整理B站-Fish吃了没-这个账号的所有视频 {"messageId":"<62523aaa.20b4.19d187a4aaa.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAZ老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<1a6525c.9f97.19d0bb2f2a5.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAX老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<53bb2a0f.9fc0.19d0bb72ba5.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: AAC老师：请帮忙整理B站-王师傅和小毛毛-这个账号的所有视频 {"messageId":"<38f233c8.9fdb.19d0bb9dc09.Coremail.18037703128@163.com>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: 更安全、更高效、更强大，尽在QQ邮箱APP {"messageId":"<app_popularize.1774231891.4101870605>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 邮件已保存: 网上购票系统-用户支付通知 {"messageId":"<1350848811.101518507.1774014275441@10.1.214.135>"}
+2026-03-23 10:18:02 [info] [mail-agent]: 发现 50 封新邮件，开始处理... 
+2026-03-23 10:18:10 [error] [mail-agent]: 处理邮件 cmn2k3ave0001t1dl83a6k7m6 失败: 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:10 [error] [mail-agent]: 邮件处理失败: cmn2k3ave0001t1dl83a6k7m6 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:20 [error] [mail-agent]: 处理邮件 cmn2k3avo0003t1dloa3150f1 失败: 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:20 [error] [mail-agent]: 邮件处理失败: cmn2k3avo0003t1dloa3150f1 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:27 [error] [mail-agent]: 处理邮件 cmn2k3avr0005t1dlf9523qd6 失败: 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:27 [error] [mail-agent]: 邮件处理失败: cmn2k3avr0005t1dlf9523qd6 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:36 [error] [mail-agent]: 处理邮件 cmn2k3avv0007t1dlwxwcp9bt 失败: 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:36 [error] [mail-agent]: 邮件处理失败: cmn2k3avv0007t1dlwxwcp9bt 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `hasAttachment` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"hasAttachment"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `hasAttachment` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:18:40 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:19:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:19:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:19:02 [info] [mail-agent]: 获取到 43 封邮件 
+2026-03-23 10:19:02 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:20:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:20:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:20:01 [info] [mail-agent]: 获取到 44 封邮件 
+2026-03-23 10:20:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:21:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:21:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:21:01 [info] [mail-agent]: 获取到 48 封邮件 
+2026-03-23 10:21:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:22:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:22:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:22:02 [info] [mail-agent]: 获取到 44 封邮件 
+2026-03-23 10:22:02 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:23:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:23:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:23:02 [info] [mail-agent]: 获取到 37 封邮件 
+2026-03-23 10:23:02 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:24:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:24:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:24:01 [info] [mail-agent]: 获取到 40 封邮件 
+2026-03-23 10:24:01 [info] [mail-agent]: 发现 50 封新邮件，开始处理... 
+2026-03-23 10:24:08 [info] [mail-agent]: 邮件 cmn2kazzu0001t1r7sokqfq13 处理完成，回复已存入发件箱 
+2026-03-23 10:24:08 [info] [mail-agent]: 邮件处理成功: cmn2kazzu0001t1r7sokqfq13 
+2026-03-23 10:24:17 [info] [mail-agent]: 邮件 cmn2kb0040003t1r76ebstldy 处理完成，回复已存入发件箱 
+2026-03-23 10:24:17 [info] [mail-agent]: 邮件处理成功: cmn2kb0040003t1r76ebstldy 
+2026-03-23 10:24:26 [info] [mail-agent]: 邮件 cmn2kb0070005t1r78yco1rt3 处理完成，回复已存入发件箱 
+2026-03-23 10:24:26 [info] [mail-agent]: 邮件处理成功: cmn2kb0070005t1r78yco1rt3 
+2026-03-23 10:25:18 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:26:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:26:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:26:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:26:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:27:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:27:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:27:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:27:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:28:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:28:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:28:01 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:28:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:29:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:29:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:29:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:29:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:29:26 [info] [mail-agent]: GET /api/email/inbox 
+2026-03-23 10:30:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:30:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:30:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:30:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:30:13 [info] [mail-agent]: POST /api/email/process/cmn2kb03d002ht1r79ld8tu5l 
+2026-03-23 10:30:13 [info] [mail-agent]: 邮件分类结果: {"category":"uncategorized","confidence":0.5,"priority":1,"action":"review_needed"}
+2026-03-23 10:30:21 [info] [mail-agent]: 生成的回复策略: ai_generated 
+2026-03-23 10:31:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:31:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:31:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:31:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:31:31 [info] [mail-agent]: POST /api/email/process/cmn2kb03d002ht1r79ld8tu5l 
+2026-03-23 10:31:31 [info] [mail-agent]: 邮件分类结果: {"category":"uncategorized","confidence":0.5,"priority":1,"action":"review_needed"}
+2026-03-23 10:31:31 [info] [mail-agent]: 邮件 cmn2kb03d002ht1r79ld8tu5l 已有回复，跳过处理 
+2026-03-23 10:32:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:32:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:32:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:32:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:33:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:33:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:33:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:33:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:34:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:34:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:34:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:34:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:35:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:35:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:35:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:35:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:36:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:36:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:36:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:36:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:37:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:37:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:37:01 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:37:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:38:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:38:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:38:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:38:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:39:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:39:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:39:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:39:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:40:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:40:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:40:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:40:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:41:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:41:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:41:01 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:41:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:41:44 [info] [mail-agent]: POST /api/email/send-pending 
+2026-03-23 10:41:44 [error] [mail-agent]: 附件生成失败 {"error":"retry.withTimeout is not a function","outboxId":"cmn2kb5l4002tt1r7n7i7kyov"}
+2026-03-23 10:41:44 [error] [mail-agent]: 附件生成失败 {"error":"retry.withTimeout is not a function","outboxId":"cmn2kbcci002vt1r72owa83lk"}
+2026-03-23 10:41:44 [error] [mail-agent]: 附件生成失败 {"error":"retry.withTimeout is not a function","outboxId":"cmn2kbja7002xt1r7p2zrpvrl"}
+2026-03-23 10:41:44 [error] [mail-agent]: 附件生成失败 {"error":"retry.withTimeout is not a function","outboxId":"cmn2kj55u0001t1666yc4kwff"}
+2026-03-23 10:44:56 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:45:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:45:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:45:01 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:45:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:46:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:46:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:46:01 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:46:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:47:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:47:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:47:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:47:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:47:13 [info] [mail-agent]: GET /api/email/inbox 
+2026-03-23 10:47:13 [error] [mail-agent]: 获取收件箱失败: 
+Invalid `prisma.inboxEmail.findMany()` invocation in
+/root/my-agent-api/src/routes/email.js:37:44
+
+  34 const where = {};
+  35 if (category) where.category = category;
+  36 
+→ 37 const emails = await prisma.inboxEmail.findMany(
+The column `OutboxEmail.retryCount` does not exist in the current database. {"code":"P2022","meta":{"modelName":"InboxEmail","column":"OutboxEmail.retryCount"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.inboxEmail.findMany()` invocation in\n/root/my-agent-api/src/routes/email.js:37:44\n\n  34 const where = {};\n  35 if (category) where.category = category;\n  36 \n→ 37 const emails = await prisma.inboxEmail.findMany(\nThe column `OutboxEmail.retryCount` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async /root/my-agent-api/src/routes/email.js:37:20"}
+2026-03-23 10:48:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:48:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:48:01 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:48:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:49:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:49:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:49:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:49:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:50:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:50:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:50:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:50:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:51:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:51:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:51:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:51:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:52:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:52:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:52:00 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:52:00 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:53:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:53:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:53:01 [info] [mail-agent]: 获取到 0 封邮件 
+2026-03-23 10:53:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:53:43 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 10:54:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:54:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:54:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:54:01 [warn] [mail-agent]: 检查邮件失败 (1/2) {"error":"\nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`"}
+2026-03-23 10:54:01 [warn] [mail-agent]: 执行失败 (1/2), 2000ms后重试: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` 
+2026-03-23 10:54:03 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:54:04 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:54:04 [warn] [mail-agent]: 检查邮件失败 (2/2) {"error":"\nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`"}
+2026-03-23 10:54:04 [error] [mail-agent]: 重试 2 次后仍失败: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` 
+2026-03-23 10:54:04 [error] [mail-agent]: 定时任务失败: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` {"code":"P2003","meta":{"modelName":"InboxEmail","constraint":"InboxEmail_accountId_fkey"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async retry.maxRetries (/root/my-agent-api/src/services/emailService.js:37:32)\n    at async retry (/root/my-agent-api/src/tools/retry.js:26:14)\n    at async /root/my-agent-api/index.js:124:23\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:55:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:55:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:55:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:55:01 [warn] [mail-agent]: 检查邮件失败 (1/2) {"error":"\nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`"}
+2026-03-23 10:55:01 [warn] [mail-agent]: 执行失败 (1/2), 2000ms后重试: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` 
+2026-03-23 10:55:03 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:55:04 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:55:04 [warn] [mail-agent]: 检查邮件失败 (2/2) {"error":"\nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`"}
+2026-03-23 10:55:04 [error] [mail-agent]: 重试 2 次后仍失败: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` 
+2026-03-23 10:55:04 [error] [mail-agent]: 定时任务失败: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` {"code":"P2003","meta":{"modelName":"InboxEmail","constraint":"InboxEmail_accountId_fkey"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async retry.maxRetries (/root/my-agent-api/src/services/emailService.js:37:32)\n    at async retry (/root/my-agent-api/src/tools/retry.js:26:14)\n    at async /root/my-agent-api/index.js:124:23\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:56:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:56:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:56:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:56:01 [warn] [mail-agent]: 检查邮件失败 (1/2) {"error":"\nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`"}
+2026-03-23 10:56:01 [warn] [mail-agent]: 执行失败 (1/2), 2000ms后重试: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` 
+2026-03-23 10:56:03 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:56:04 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:56:04 [warn] [mail-agent]: 检查邮件失败 (2/2) {"error":"\nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`"}
+2026-03-23 10:56:04 [error] [mail-agent]: 重试 2 次后仍失败: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` 
+2026-03-23 10:56:04 [error] [mail-agent]: 定时任务失败: 
+Invalid `prisma.inboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:37:56
+
+  34 });
+  35 
+  36 if (!existing) {
+→ 37   const savedEmail = await prisma.inboxEmail.create(
+Foreign key constraint violated on the constraint: `InboxEmail_accountId_fkey` {"code":"P2003","meta":{"modelName":"InboxEmail","constraint":"InboxEmail_accountId_fkey"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.inboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:37:56\n\n  34 });\n  35 \n  36 if (!existing) {\n→ 37   const savedEmail = await prisma.inboxEmail.create(\nForeign key constraint violated on the constraint: `InboxEmail_accountId_fkey`\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async retry.maxRetries (/root/my-agent-api/src/services/emailService.js:37:32)\n    at async retry (/root/my-agent-api/src/tools/retry.js:26:14)\n    at async /root/my-agent-api/index.js:124:23\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:57:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:57:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:57:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:57:01 [info] [mail-agent]: 发现 2 封新邮件，开始处理... 
+2026-03-23 10:57:10 [error] [mail-agent]: 处理邮件 cmn2lhfos000dt1ka0lmta99s 失败: 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `retryCount` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"retryCount"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `retryCount` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:57:10 [error] [mail-agent]: 邮件处理失败: cmn2lhfos000dt1ka0lmta99s 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `retryCount` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"retryCount"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `retryCount` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:57:20 [error] [mail-agent]: 处理邮件 cmn2lhfox000ft1kasmdxu2ja 失败: 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `retryCount` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"retryCount"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `retryCount` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:57:20 [error] [mail-agent]: 邮件处理失败: cmn2lhfox000ft1kasmdxu2ja 
+Invalid `prisma.outboxEmail.create()` invocation in
+/root/my-agent-api/src/services/emailService.js:206:47
+
+  203   outboxData.attachmentName = reply.attachment.fileName;
+  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);
+  205 }
+→ 206 const outbox = await prisma.outboxEmail.create(
+The column `retryCount` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"retryCount"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.create()` invocation in\n/root/my-agent-api/src/services/emailService.js:206:47\n\n  203   outboxData.attachmentName = reply.attachment.fileName;\n  204   outboxData.attachmentInfo = JSON.stringify(reply.attachment);\n  205 }\n→ 206 const outbox = await prisma.outboxEmail.create(\nThe column `retryCount` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async EmailService.processEmail (/root/my-agent-api/src/services/emailService.js:206:22)\n    at async /root/my-agent-api/index.js:136:11\n    at async Timeout._onTimeout (/root/my-agent-api/node_modules/node-cron/dist/cjs/scheduler/runner.js:70:44)"}
+2026-03-23 10:57:21 [info] [mail-agent]: POST /api/email/send-pending 
+2026-03-23 10:57:21 [error] [mail-agent]: 批量发送失败: 
+Invalid `prisma.outboxEmail.findMany()` invocation in
+/root/my-agent-api/src/routes/email.js:79:46
+
+  76 // 发送待处理邮件
+  77 router.post('/send-pending', async (req, res) => {
+  78   try {
+→ 79     const pending = await prisma.outboxEmail.findMany(
+The column `OutboxEmail.retryCount` does not exist in the current database. {"code":"P2022","meta":{"modelName":"OutboxEmail","column":"OutboxEmail.retryCount"},"clientVersion":"6.19.2","name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.outboxEmail.findMany()` invocation in\n/root/my-agent-api/src/routes/email.js:79:46\n\n  76 // 发送待处理邮件\n  77 router.post('/send-pending', async (req, res) => {\n  78   try {\n→ 79     const pending = await prisma.outboxEmail.findMany(\nThe column `OutboxEmail.retryCount` does not exist in the current database.\n    at ei.handleRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:7268)\n    at ei.handleAndLogRequestError (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6593)\n    at ei.request (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:121:6300)\n    at async a (/root/my-agent-api/node_modules/@prisma/client/runtime/library.js:130:9551)\n    at async /root/my-agent-api/src/routes/email.js:79:21"}
+2026-03-23 10:57:21 [info] [mail-agent]: 已发送 undefined 封回复邮件 
+2026-03-23 10:58:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:58:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:58:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:58:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:59:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 10:59:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 10:59:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 10:59:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 10:59:21 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:00:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:00:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:00:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:00:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:01:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:01:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:01:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:01:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:02:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:02:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:02:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:02:01 [info] [mail-agent]: 发现 1 封新邮件，开始处理... 
+2026-03-23 11:02:10 [info] [mail-agent]: 邮件 cmn2lnv4y0001t1pb9o9g6mls 处理完成，回复已存入发件箱 
+2026-03-23 11:02:10 [info] [mail-agent]: 邮件处理成功: cmn2lnv4y0001t1pb9o9g6mls 
+2026-03-23 11:02:10 [info] [mail-agent]: POST /api/email/send-pending 
+2026-03-23 11:02:10 [error] [mail-agent]: 附件生成失败 {"error":"retry.withTimeout is not a function","outboxId":"cmn2lo1o20003t1pb4rgalwup"}
+2026-03-23 11:02:10 [info] [mail-agent]: 已发送 0 封回复邮件 
+2026-03-23 11:03:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:03:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:03:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:03:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:04:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:04:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:04:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:04:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:05:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:05:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:05:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:05:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:05:54 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:06:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:06:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:06:01 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:06:47 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:07:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:07:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:07:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:07:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:07:04 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:07:24 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:07:33 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:08:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:08:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:08:01 [info] [mail-agent]: 获取到 1 封邮件 
+2026-03-23 11:08:01 [info] [mail-agent]: 发现 1 封新邮件，开始处理... 
+2026-03-23 11:08:10 [info] [mail-agent]: 邮件 cmn2lvkwd0001t17gc8s9pjw2 处理完成，回复已存入发件箱 
+2026-03-23 11:08:10 [info] [mail-agent]: 邮件处理成功: cmn2lvkwd0001t17gc8s9pjw2 
+2026-03-23 11:08:10 [info] [mail-agent]: POST /api/email/send-pending 
+2026-03-23 11:08:14 [info] [mail-agent]: 附件生成成功: B站_Fish吃了没_视频数据汇总_20260323.xlsx 
+2026-03-23 11:08:15 [info] [mail-agent]: 邮件发送成功 {"outboxId":"cmn2lvrix0003t17g1u27ystw","hasAttachment":true}
+2026-03-23 11:08:15 [info] [mail-agent]: 已发送 1 封回复邮件 
+2026-03-23 11:09:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:09:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:09:01 [info] [mail-agent]: 获取到 1 封邮件 
+2026-03-23 11:09:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:10:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:10:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:10:01 [info] [mail-agent]: 获取到 1 封邮件 
+2026-03-23 11:10:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:11:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:11:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:11:01 [info] [mail-agent]: 获取到 1 封邮件 
+2026-03-23 11:11:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:12:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:12:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:12:01 [info] [mail-agent]: 获取到 1 封邮件 
+2026-03-23 11:12:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:12:06 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:12:36 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:13:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:13:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:13:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:13:01 [info] [mail-agent]: 发现 1 封新邮件，开始处理... 
+2026-03-23 11:13:08 [info] [mail-agent]: 邮件 cmn2m20es0001t12b8fts8lz3 处理完成，回复已存入发件箱 
+2026-03-23 11:13:08 [info] [mail-agent]: 邮件处理成功: cmn2m20es0001t12b8fts8lz3 
+2026-03-23 11:13:09 [info] [mail-agent]: POST /api/email/send-pending 
+2026-03-23 11:13:12 [info] [mail-agent]: 附件生成成功: B站_Fish吃了没_视频数据汇总_20260323.xlsx 
+2026-03-23 11:13:14 [info] [mail-agent]: 邮件发送成功 {"outboxId":"cmn2m263p0003t12be1rkbteo","hasAttachment":true}
+2026-03-23 11:13:14 [info] [mail-agent]: 已发送 1 封回复邮件 
+2026-03-23 11:14:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:14:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:14:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:14:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:15:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:15:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:15:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:15:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:16:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:16:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:16:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:16:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:17:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:17:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:17:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:17:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:18:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:18:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:18:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:18:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:19:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:19:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:19:01 [info] [mail-agent]: 获取到 2 封邮件 
+2026-03-23 11:19:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:19:04 [info] [mail-agent]: 服务器运行在 http://localhost:3000 
+2026-03-23 11:20:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:20:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:20:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:20:01 [info] [mail-agent]: 发现 1 封新邮件，开始处理... 
+2026-03-23 11:20:16 [info] [mail-agent]: 邮件 cmn2mb0ko0001t10asp3127ge 处理完成，回复已存入发件箱 
+2026-03-23 11:20:16 [info] [mail-agent]: 邮件处理成功: cmn2mb0ko0001t10asp3127ge 
+2026-03-23 11:20:16 [info] [mail-agent]: POST /api/email/send-pending 
+2026-03-23 11:20:20 [info] [mail-agent]: 附件生成成功: B站_Fish吃了没_视频数据汇总_20260323.xlsx 
+2026-03-23 11:20:22 [info] [mail-agent]: 邮件发送成功 {"outboxId":"cmn2mbbqm0003t10ak8la8sgc","hasAttachment":true}
+2026-03-23 11:20:22 [info] [mail-agent]: 已发送 1 封回复邮件 
+2026-03-23 11:21:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:21:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:21:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:21:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:22:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:22:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:22:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:22:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:23:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:23:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:23:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:23:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:24:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:24:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:24:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:24:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:25:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:25:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:25:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:25:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:26:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:26:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:26:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:26:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:27:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:27:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:27:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:27:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:28:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:28:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:28:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:28:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:29:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:29:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:29:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:29:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:30:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:30:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:30:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:30:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:31:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:31:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:31:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:31:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:32:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:32:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:32:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:32:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:33:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:33:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:33:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:33:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:34:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:34:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:34:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:34:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:35:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:35:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:35:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:35:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:36:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:36:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:36:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:36:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:37:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:37:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:37:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:37:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:38:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:38:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:38:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:38:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:39:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:39:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:39:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:39:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:40:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:40:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:40:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:40:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:41:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:41:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:41:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:41:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:42:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:42:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:42:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:42:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:43:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:43:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:43:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:43:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:44:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:44:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:44:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:44:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:45:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:45:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:45:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:45:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:46:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:46:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:46:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:46:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:47:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:47:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:47:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:47:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:48:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:48:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:48:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:48:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:49:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:49:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:49:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:49:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:50:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:50:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:50:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:50:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:51:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:51:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:51:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:51:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:52:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:52:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:52:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:52:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:53:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:53:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:53:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:53:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:54:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:54:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:54:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:54:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:55:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:55:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:55:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:55:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:56:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:56:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:56:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:56:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:57:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:57:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:57:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:57:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:58:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:58:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:58:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:58:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 11:59:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 11:59:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 11:59:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 11:59:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:00:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:00:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:00:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:00:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:01:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:01:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:01:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:01:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:02:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:02:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:02:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:02:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:03:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:03:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:03:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:03:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:04:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:04:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:04:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:04:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:05:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:05:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:05:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:05:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:06:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:06:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:06:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:06:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:07:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:07:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:07:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:07:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:08:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:08:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:08:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:08:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:09:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:09:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:09:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:09:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:10:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:10:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:10:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:10:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:11:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:11:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:11:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:11:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:12:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:12:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:12:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:12:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:13:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:13:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:13:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:13:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:14:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:14:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:14:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:14:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:15:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:15:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:15:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:15:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:16:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:16:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:16:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:16:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:17:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:17:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:17:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:17:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:18:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:18:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:18:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:18:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:19:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:19:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:19:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:19:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:20:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:20:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:20:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:20:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:21:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:21:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:21:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:21:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:22:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:22:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:22:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:22:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:23:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:23:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:23:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:23:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:24:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:24:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:24:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:24:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:25:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:25:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:25:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:25:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:26:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:26:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:26:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:26:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:27:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:27:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:27:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:27:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:28:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:28:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:28:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:28:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:29:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:29:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:29:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:29:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:30:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:30:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:30:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:30:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:31:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:31:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:31:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:31:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:32:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:32:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:32:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:32:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:33:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:33:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:33:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:33:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:34:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:34:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:34:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:34:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:35:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:35:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:35:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:35:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:36:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:36:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:36:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:36:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:37:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:37:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:37:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:37:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:38:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:38:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:38:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:38:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:39:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:39:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:39:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:39:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:40:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:40:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:40:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:40:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:41:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:41:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:41:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:41:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:42:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:42:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:42:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:42:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:43:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:43:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:43:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:43:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:44:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:44:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:44:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:44:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:45:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:45:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:45:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:45:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:46:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:46:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:46:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:46:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:47:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:47:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:47:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:47:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:48:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:48:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:48:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:48:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:49:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:49:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:49:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:49:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:50:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:50:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:50:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:50:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:51:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:51:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:51:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:51:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:52:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:52:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:52:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:52:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:53:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:53:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:53:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:53:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:54:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:54:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:54:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:54:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:55:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:55:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:55:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:55:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:56:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:56:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:56:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:56:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:57:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:57:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:57:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:57:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:58:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:58:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:58:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:58:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 12:59:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 12:59:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 12:59:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 12:59:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:00:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:00:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:00:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:00:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:01:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:01:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:01:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:01:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:02:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:02:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:02:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:02:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:03:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:03:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:03:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:03:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:04:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:04:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:04:02 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:04:02 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:05:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:05:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:05:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:05:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:06:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:06:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:06:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:06:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:07:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:07:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:07:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:07:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:08:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:08:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:08:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:08:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:09:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:09:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:09:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:09:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:10:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:10:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:10:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:10:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:11:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:11:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:11:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:11:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:12:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:12:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:12:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:12:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:13:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:13:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:13:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:13:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:14:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:14:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:14:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:14:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:15:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:15:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:15:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:15:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:16:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:16:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:16:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:16:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:17:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:17:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:17:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:17:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:18:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:18:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:18:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:18:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:19:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:19:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:19:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:19:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:20:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:20:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:20:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:20:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:21:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:21:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:21:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:21:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:22:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:22:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:22:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:22:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:23:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:23:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:23:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:23:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:24:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:24:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:24:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:24:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:25:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:25:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:25:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:25:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:26:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:26:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:26:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:26:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:27:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:27:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:27:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:27:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:28:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:28:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:28:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:28:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:29:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:29:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:29:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:29:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:30:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:30:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:30:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:30:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:31:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:31:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:31:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:31:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:32:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:32:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:32:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:32:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:33:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:33:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:33:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:33:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:34:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:34:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:34:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:34:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:35:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:35:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:35:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:35:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:36:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:36:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:36:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:36:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:37:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:37:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:37:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:37:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:38:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:38:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:38:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:38:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:39:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:39:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:39:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:39:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:40:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:40:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:40:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:40:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:41:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:41:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:41:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:41:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:42:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:42:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:42:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:42:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:43:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:43:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:43:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:43:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:44:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:44:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:44:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:44:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:45:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:45:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:45:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:45:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:46:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:46:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:46:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:46:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:47:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:47:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:47:01 [info] [mail-agent]: 获取到 4 封邮件 
+2026-03-23 13:47:01 [info] [mail-agent]: 发现 1 封新邮件，开始处理... 
+2026-03-23 13:47:01 [info] [mail-agent]: 邮件 cmn2rk2170005t10ayu738i59 处理完成，回复已存入发件箱 
+2026-03-23 13:47:01 [info] [mail-agent]: 邮件处理成功: cmn2rk2170005t10ayu738i59 
+2026-03-23 13:47:02 [info] [mail-agent]: POST /api/email/send-pending 
+2026-03-23 13:47:02 [info] [mail-agent]: 已发送 0 封回复邮件 
+2026-03-23 13:48:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:48:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:48:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:48:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:49:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:49:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:49:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:49:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:50:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:50:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:50:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:50:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:51:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:51:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:51:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:51:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:52:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:52:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:52:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:52:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:53:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:53:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:53:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:53:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:54:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:54:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:54:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:54:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:55:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:55:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:55:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:55:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:56:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:56:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:56:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:56:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:57:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:57:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:57:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:57:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:58:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:58:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:58:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:58:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 13:59:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 13:59:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 13:59:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 13:59:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:00:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:00:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:00:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:00:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:01:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:01:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:01:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:01:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:02:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:02:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:02:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:02:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:03:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:03:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:03:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:03:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:04:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:04:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:04:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:04:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:05:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:05:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:05:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:05:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:06:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:06:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:06:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:06:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:07:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:07:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:07:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:07:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:08:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:08:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:08:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:08:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:09:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:09:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:09:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:09:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:10:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:10:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:10:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:10:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:11:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:11:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:11:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:11:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:12:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:12:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:12:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:12:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:13:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:13:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:13:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:13:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:14:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:14:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:14:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:14:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:15:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:15:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:15:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:15:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:16:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:16:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:16:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:16:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:17:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:17:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:17:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:17:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:18:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:18:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:18:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:18:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:19:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:19:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:19:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:19:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:20:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:20:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:20:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:20:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:21:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:21:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:21:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:21:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:22:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:22:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:22:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:22:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:23:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:23:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:23:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:23:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:24:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:24:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:24:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:24:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:25:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:25:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:25:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:25:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:26:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:26:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:26:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:26:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:27:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:27:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:27:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:27:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:28:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:28:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:28:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:28:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:29:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:29:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:29:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:29:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:30:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:30:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:30:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:30:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:31:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:31:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:31:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:31:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:32:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:32:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:32:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:32:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:33:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:33:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:33:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:33:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:34:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:34:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:34:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:34:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:35:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:35:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:35:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:35:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:36:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:36:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:36:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:36:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:37:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:37:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:37:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:37:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:38:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:38:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:38:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:38:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:39:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:39:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:39:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:39:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:40:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:40:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:40:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:40:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:41:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:41:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:41:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:41:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:42:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:42:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:42:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:42:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:43:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:43:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:43:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:43:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:44:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:44:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:44:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:44:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:45:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:45:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:45:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:45:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:46:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:46:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:46:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:46:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:47:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:47:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:47:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:47:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:48:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:48:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:48:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:48:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:49:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:49:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:49:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:49:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:50:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:50:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:50:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:50:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:51:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:51:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:51:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:51:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:52:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:52:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:52:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:52:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:53:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:53:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:53:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:53:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:54:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:54:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:54:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:54:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:55:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:55:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:55:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:55:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:56:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:56:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:56:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:56:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:57:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:57:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:57:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:57:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:58:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:58:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:58:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:58:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 14:59:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 14:59:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 14:59:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 14:59:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:00:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:00:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:00:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:00:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:01:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:01:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:01:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:01:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:02:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:02:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:02:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:02:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:03:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:03:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:03:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:03:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:04:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:04:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:04:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:04:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:05:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:05:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:05:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:05:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:06:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:06:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:06:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:06:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:07:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:07:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:07:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:07:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:08:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:08:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:08:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:08:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:09:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:09:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:09:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:09:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:10:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:10:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:10:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:10:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:11:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:11:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:11:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:11:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:12:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:12:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:12:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:12:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:13:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:13:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:13:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:13:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:14:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:14:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:14:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:14:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:15:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:15:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:15:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:15:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:16:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:16:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:16:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:16:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:17:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:17:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:17:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:17:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:18:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:18:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:18:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:18:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:19:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:19:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:19:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:19:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:20:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:20:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:20:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:20:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:21:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:21:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:21:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:21:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:22:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:22:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:22:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:22:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:23:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:23:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:23:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:23:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:24:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:24:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:24:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:24:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:25:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:25:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:25:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:25:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:26:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:26:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:26:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:26:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:27:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:27:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:27:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:27:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:28:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:28:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:28:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:28:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:29:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:29:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:29:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:29:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:30:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:30:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:30:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:30:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:31:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:31:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:31:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:31:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:32:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:32:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:32:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:32:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:33:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:33:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:33:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:33:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:34:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:34:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:34:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:34:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:35:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:35:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:35:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:35:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:36:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:36:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:36:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:36:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:37:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:37:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:37:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:37:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:38:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:38:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:38:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:38:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:39:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:39:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:39:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:39:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:40:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:40:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:40:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:40:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:41:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:41:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:41:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:41:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:42:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:42:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:42:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:42:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:43:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:43:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:43:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:43:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:44:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:44:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:44:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:44:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:45:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:45:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:45:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:45:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:46:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:46:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:46:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:46:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:47:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:47:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:47:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:47:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:48:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:48:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:48:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:48:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:49:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:49:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:49:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:49:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:50:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:50:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:50:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:50:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:51:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:51:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:51:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:51:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:52:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:52:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:52:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:52:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:53:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:53:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:53:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:53:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:54:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:54:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:54:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:54:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:55:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:55:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:55:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:55:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:56:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:56:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:56:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:56:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:57:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:57:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:57:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:57:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:58:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:58:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:58:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:58:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 15:59:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 15:59:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 15:59:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 15:59:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:00:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:00:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:00:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:00:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:01:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:01:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:01:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:01:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:02:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:02:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:02:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:02:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:03:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:03:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:03:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:03:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:04:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:04:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:04:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:04:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:05:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:05:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:05:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:05:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:06:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:06:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:06:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:06:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:07:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:07:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:07:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:07:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:08:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:08:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:08:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:08:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:09:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:09:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:09:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:09:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:10:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:10:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:10:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:10:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:11:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:11:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:11:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:11:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:12:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:12:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:12:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:12:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:13:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:13:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:13:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:13:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:14:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:14:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:14:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:14:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:15:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:15:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:15:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:15:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:16:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:16:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:16:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:16:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:17:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:17:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:17:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:17:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:18:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:18:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:18:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:18:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:19:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:19:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:19:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:19:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:20:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:20:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:20:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:20:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:21:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:21:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:21:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:21:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:22:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:22:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:22:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:22:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:23:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:23:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:23:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:23:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:24:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:24:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:24:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:24:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:25:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:25:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:25:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:25:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:26:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:26:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:26:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:26:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:27:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:27:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:27:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:27:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:28:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:28:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:28:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:28:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:29:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:29:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:29:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:29:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:30:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:30:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:30:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:30:01 [info] [mail-agent]: 没有新邮件需要处理 
+2026-03-23 16:31:00 [info] [mail-agent]: 开始定时检查邮件 
+2026-03-23 16:31:00 [info] [mail-agent]: 开始检查新邮件 {"limit":100}
+2026-03-23 16:31:01 [info] [mail-agent]: 获取到 3 封邮件 
+2026-03-23 16:31:01 [info] [mail-agent]: 没有新邮件需要处理 
